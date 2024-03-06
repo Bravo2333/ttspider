@@ -73,7 +73,7 @@ const MasterRankTable = ({onchange}) => {
   // 定义表格的列
 
   useEffect(() => {
-    const apiUrl = 'http://localhost:5000/api/masterrankinfo';
+    const apiUrl = 'http://8.130.54.57:5000/api/masterrankinfo';
 
     // 准备发送给后端的数据
     const requestData = {

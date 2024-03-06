@@ -7,7 +7,7 @@ const {Content } = Layout;
 const MasterBar = ({masterlink, onchange}) => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    const MasterBarapiUrl = 'http://localhost:5000/api/masterbaseinfo';
+    const MasterBarapiUrl = 'http://8.130.54.57:5000/api/masterbaseinfo';
     // 准备发送给后端的数据
     const requestData = {
         ownerlink: masterlink,

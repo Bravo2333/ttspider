@@ -60,7 +60,7 @@ const Masterdetial = ({currentownerlink}) => {
   ];
 
   useEffect(() => {
-    const apiUrl = 'http://localhost:5000/api/masterdetial';
+    const apiUrl = 'http://8.130.54.57:5000/api/masterdetial';
 
     // 准备发送给后端的数据
     const requestData = {

@@ -134,7 +134,7 @@ const VideoTable = ({onchange}) => {
   ];
 
   useEffect(() => {
-    const apiUrl = 'http://localhost:5000/api/videobaseinfo';
+    const apiUrl = 'http://8.130.54.57:5000/api/videobaseinfo';
 
     // 准备发送给后端的数据
     const requestData = {

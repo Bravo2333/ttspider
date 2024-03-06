@@ -74,7 +74,7 @@ const VideoRankTable = ({onchange}) => {
   // 定义表格的列
 
   useEffect(() => {
-    const apiUrl = 'http://localhost:5000/api/videorankinfo';
+    const apiUrl = 'http://8.130.54.57:5000/api/videorankinfo';
 
     // 准备发送给后端的数据
     const requestData = {

@@ -2,7 +2,7 @@
   "name": "ttspider",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://127.0.0.1:5000",
+  "proxy": "http://8.130.54.57:5000",
   "dependencies": {
     "@ant-design/charts": "^2.0.3",
     "@testing-library/jest-dom": "^5.17.0",
